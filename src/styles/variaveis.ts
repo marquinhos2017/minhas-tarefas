@@ -1,6 +1,6 @@
 export default {
-  vermelho: 'red',
-  verde: 'green',
-  amarelo: 'yellow',
-  amarelo2: 'orange'
+  vermelho: '#FF5A5F',
+  verde: '#4CAF50',
+  amarelo: '#FFC107',
+  amarelo2: '#FFA726'
 }
