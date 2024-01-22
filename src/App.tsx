@@ -6,6 +6,7 @@ import ListadeTarefas from './containers/ListadeTarefa'
 import { Provider } from 'react-redux'
 import store from './store'
 import Home from './pages/Home'
+import Cadastro from './pages/Cadastro'
 
 const rotas = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const rotas = createBrowserRouter([
   },
   {
     path: '/novo',
-    element: <h1>Nova Tarefa</h1>
+    element: <Cadastro />
   }
 ])
 
