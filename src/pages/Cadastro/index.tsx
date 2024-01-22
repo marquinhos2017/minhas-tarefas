@@ -4,7 +4,7 @@ import Formulario from '../../containers/Formulario'
 const Cadastro = () => (
   <>
     {/*Barra Lateral */}
-    <BarraLateral />
+    <BarraLateral mostrarfiltros={false} />
     <Formulario />
   </>
 )

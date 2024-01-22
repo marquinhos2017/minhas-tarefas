@@ -14,4 +14,5 @@ export const Circulo = styled(Link)`
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  text-decoration: none;
 `
