@@ -1,8 +1,5 @@
-import styled from 'styled-components'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import EstiloGlobal, { Container } from './styles'
-import BarraLateral from './containers/BarraLateral'
-import ListadeTarefas from './containers/ListadeTarefa'
 import { Provider } from 'react-redux'
 import store from './store'
 import Home from './pages/Home'
